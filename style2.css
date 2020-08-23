@@ -1,0 +1,55 @@
+.header h1,
+.header .breadcrumb {
+ text-align: center;
+}
+.book {
+ border-bottom: 1px solid rgb(); color: grey }
+
+
+.book .addbtn,
+.searchBar input[type=submit] 
+ {
+--padding: 8px 10px;
+--border-radius: 5px;
+--min-width: 80px;
+--float: center;
+--font-size: 1.1em;
+}
+.book .addbtn {
+background-color: rgb(79, 149, 255);}
+
+/*Extra small device (phones, 600px amd down*/
+@media only screen and (max-width: 600px){}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.container {
+width: 50%;
+margin: 0 auto;
+}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
+*box .addbtn {
+    padding:20px;
+    color: grey;
+    margin:auto;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
